@@ -1,12 +1,13 @@
 # pandas-challenge
 
-Using Pandas and Jupyter Notebook, create a report that includes the following data. Your report must include a written description of at least two observable trends based on the data.
+  Using Pandas and Jupyter Notebook, create a report that includes the following data. Your report must include a written description of at least two observable trends based on the data.
 Hint: Check out the sample solution called PyCitySchools_starter.ipynb located in the .zip file to review the desired format for this assignment.
 
 District Summary
 
-Perform the necessary calculations and then create a high-level snapshot of the district's key metrics in a DataFrame.
+  Perform the necessary calculations and then create a high-level snapshot of the district's key metrics in a DataFrame.
 Include the following:
+
 Total number of unique schools
 Total students
 Total budget
@@ -18,8 +19,10 @@ Average reading score
 
 School Summary
 
-Perform the necessary calculations and then create a DataFrame that summarizes key metrics about each school.
+  Perform the necessary calculations and then create a DataFrame that summarizes key metrics about each school.
+
 Include the following:
+
 School name
 School type
 Total students
@@ -51,7 +54,7 @@ Create a DataFrame that lists the average reading score for students of each gra
 
 Scores by School Spending
 
-Create a table that breaks down school performance based on average spending ranges (per student).
+  Create a table that breaks down school performance based on average spending ranges (per student).
 Use the code provided below to create four bins with reasonable cutoff values to group school spending.
 
 spending_bins = [0, 585, 630, 645, 680]
@@ -67,6 +70,7 @@ spending_passing_reading = school_spending_df.groupby(["Spending Ranges (Per Stu
 overall_passing_spending = school_spending_df.groupby(["Spending Ranges (Per Student)"]).mean()["% Overall Passing"]
 
 Use the scores above to create a DataFrame called spending_summary.
+
 Include the following metrics in the table:
 
 Average math score
