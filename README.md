@@ -1,12 +1,8 @@
-# pandas-challenge
-
-  Using Pandas and Jupyter Notebook, create a report that includes the following data. Your report must include a written description of at least two observable trends based on the data.
-Hint: Check out the sample solution called PyCitySchools_starter.ipynb located in the .zip file to review the desired format for this assignment.
+Created a report that including a written description of at least two observable trends based on the data provided.
 
 District Summary
 
-  Perform the necessary calculations and then create a high-level snapshot of the district's key metrics in a DataFrame.
-Include the following:
+  Performed the necessary calculations to create a high-level snapshot of the district's key metrics in a DataFrame icluding the following:
 
 Total number of unique schools
 Total students
@@ -19,9 +15,7 @@ Average reading score
 
 School Summary
 
-  Perform the necessary calculations and then create a DataFrame that summarizes key metrics about each school.
-
-Include the following:
+  Performed the necessary calculations to then create a DataFrame that summarizes following key metrics about each school:
 
 School name
 School type
